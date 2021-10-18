@@ -1,0 +1,292 @@
+/* Home Section*/
+#home{
+	display: flex;
+	flex-direction: column;
+	padding: 3px 200px;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	height: 633;
+}
+.image {
+	background-image: url("bg1.jpg");
+	 min-height: 500px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+  #second{
+    color: white;
+    background-color: violet;
+    padding: 20px
+  }
+
+
+
+  #home h1 {
+  	
+  	text-align: center;
+  	height: 633;
+    font-family: 'bree serif' , serif;
+
+  	
+  }
+   #home p {
+    
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'bree serif' , serif;
+
+    
+  }
+
+  .b12{
+  	padding: 6px 20px;
+  	border:2px solid white;
+  	background-color: brown;
+  	color: white;
+  	margin: 17px;
+  	font-size: 1.5rem;
+  	border-radius: 10px;
+  	cursor: pointer;
+    }
+  /* services section */
+ 
+  	 
+ /* utility classes */
+  .h-primary {
+  	font-size: 2.8rem;
+  	
+  	text-align: center;
+  	text-decoration-color: rgb(98,0,106);
+    padding-top: 50px;
+
+  }
+   .h-secondary {
+  	font-size: 2.8rem;
+  	padding: 12px;
+  	text-align: center;
+  }
+
+  .grid{
+  	margin: 80px;
+  	display: grid;
+  	grid-template-columns: repeat(3,1fr);
+  	grid-gap: 30px;
+  	align-items: center;
+  }
+
+    .grid > article{
+    	background: #eee5e9;
+    	border: none;
+    	box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+    	border-radius: 50px;
+    	text-align: center;
+    	width: 250px;
+    	transition: transform .3s;
+      padding: 20px 20px;
+      grid-column-gap: 20px;
+      grid-row-gap: 30px;
+      
+
+
+    }
+
+    .grid > article:hover{
+    	transform: translateY(5px);
+    	box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.3);
+
+
+    }
+      .grid > article img{
+      	width: 100%;
+      	border-top-left-radius: 20px;
+      	border-top-right-radius: 20px;
+      }
+
+      .text{
+      	padding: 0 20px 20px;
+      }
+
+      @media ( max-width: 768px){
+      	.grid {
+      		grid-template-columns:repeat(2,1fr);
+      	}
+      }
+
+      @media ( max-width: 500px){
+      	.grid {
+      		grid-template-columns:repeat(1,1fr);
+               } 
+
+       }
+       .grid > article{
+        text-align: center;
+       }
+       @media only screen and (width:446px){
+        .grid{
+             height:553px;
+             width:100%;
+        }
+       }
+       @media ( max-width: 991px){
+        .container {
+           flex-direction: column;
+        }
+      }
+
+       /*home*/
+       @media ( max-width: 915px){
+         
+         #home{ flex-direction: column;
+        
+        }
+      }
+
+         
+
+
+
+      
+
+      
+      #clients{
+      	display: flex;
+      	justify-content: center;
+      	align-items: center;
+        background-image: url('bg.jpg');
+      }
+      .client-item{
+      	padding: 34px;
+      }
+      #clients img{
+      	height: 136px;
+      	width:  600px;
+
+      }
+    .center{
+       color: black;
+        background-color: pink;
+        text-align: center;
+
+
+    }
+    /* contact section*/
+    #contact{
+      position: relative;
+      background : url('contactimage.jpg') no-repeat center center/cover;
+      height:100%
+      z-index: -1;
+      opacity: 0.7;
+      
+    }
+    
+    #contact::before{
+      content: 
+      position:absolute;
+      width: 100%
+      height100%
+      z-index: -1;
+      opacity: 0.7;
+      background : url('contactimage.jpg') no-repeat center center/cover;
+    }
+    #contact-box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 34px;
+
+    }
+    
+
+  
+    #contact-box input,
+    #contact-box textarea{
+       width: 100%;
+       padding: 0.5rem;
+       border-radius: 9px;
+       font-size: 1.1rem;
+       text-color: black;
+    }
+     #contact-box form {
+      width: 40%;
+     }
+     #contact-box label{
+       font-size: 1.3rem;
+     }
+
+
+
+
+
+    footer{
+      background:black;
+      color: white;
+      padding: 9px 20px;
+      text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
